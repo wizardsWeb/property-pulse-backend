@@ -1,0 +1,22 @@
+- we installed the prisma from the docs
+- there will be file generated that is schema.prisma 
+- in which we can create aur models
+- we have to create a folder name - lib
+- where we will create a file name prisma.js 
+- in this file we will import the prisma client
+- we will use the prisma client to interact with the database
+
+    const newUser = await prisma.user.create({
+        data: {
+            username,
+            email,
+            password: hashedPassword,
+        }
+    })
+
+- it will directly create the user
+
+- every time we make changes in the prisma 
+
+    npx prisma db push
+
