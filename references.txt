@@ -20,3 +20,20 @@
 
     npx prisma db push
 
+
+
+
+
+
+
+vimsicle
+draw.io
+- mainly put the research papers ( mainly for ml models )
+
+
+
+domain - health, education, 
+
+google scholar
+
+CDAC
